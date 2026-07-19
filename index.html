@@ -3,114 +3,160 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Computer Education</title>
+<title>My Computer Education Center</title>
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-body{
-    background-image: url("images/background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+<link rel="stylesheet" href="style.css">
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-header{
-background:#e46d5f;
-color:white;
-padding:15px;
-display:flex;
-align-items:center;
-}
+</head>
 
-header img{
-width:70px;
-height:70px;
-margin-right:15px;
-border-radius:50%;
-}
+<body>
 
-header h1{
-font-size:40px;
-}
+<!-- Header -->
 
-nav{
-background:#0a5c16;
-padding:15px;
-text-align:center;
-}
+<header>
 
-nav a{
-color:white;
-text-decoration:none;
-padding:15px;
-font-weight:bold;
-}
+<div class="logo">
+<img src="images/logo.png" alt="Logo">
+</div>
 
-nav a:hover{
-background:orange;
-border-radius:5px;
-}
+<div class="heading">
+<h1>MY COMPUTER EDUCATION CENTER</h1>
+<p>Learn Today • Lead Tomorrow</p>
+</div>
 
-.notice{
-background:#a8511d;
-color:white;
-padding:12px;
-font-size:22px;
-text-align:center;
-font-weight:bold;
-}
+</header>
 
-.slider{
-width:90%;
-margin:20px auto;
-overflow:hidden;
-border-radius:10px;
-}
+<!-- Navigation -->
 
-.slider img{
-width:100%;
-height:450px;
-object-fit:cover;
-}
+<nav>
 
-section{
-padding:40px;
-text-align:center;
-}
+<a href="index.html">Home</a>
 
-.course{
-display:flex;
-justify-content:center;
-gap:20px;
-flex-wrap:wrap;
-}
+<a href="courses.html">Courses</a>
 
-.card{
-background:white;
-width:250px;
-padding:20px;
-border-radius:10px;
-box-shadow:0 0 10px gray;
-}
+<a href="gallery.html">Gallery</a>
 
-.card h3{
-color:#0b6d1c;
-margin-bottom:10px;
-}
+<a href="register.html">Student Registration</a>
 
-footer{
-background:#0a5c16;
-color:white;
-padding:20px;
-text-align:center;
-margin-top:30px;
-}
-</style>
+<a href="student-login.html">Student Login</a>
 
+<a href="admin-login.html">Admin Login</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<!-- Notice -->
+
+<div class="notice">
+
+<marquee scrollamount="6">
+
+🎉 Admission Open 2025 |
+ADCA |
+DCA |
+BASIC |
+TALLY |
+Spoken English |
+CCC
+
+</marquee>
+
+</div>
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h2>WELCOME TO</h2>
+
+<h1>MY COMPUTER EDUCATION CENTER</h1>
+
+<p>
+Best Computer Training Institute.
+Professional Courses With Certificate.
+</p>
+
+<a href="courses.html" class="btn">Explore Courses</a>
+
+</div>
+
+</section>
+
+<!-- Courses -->
+
+<section class="courses">
+
+<h2>POPULAR COURSES</h2>
+
+<div class="course-container">
+
+<div class="card">
+
+<i class="fa-solid fa-computer fa-3x"></i>
+
+<h3>ADCA</h3>
+
+<p>Advanced Diploma in Computer Application</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-laptop fa-3x"></i>
+
+<h3>DCA</h3>
+
+<p>Diploma in Computer Application</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-keyboard fa-3x"></i>
+
+<h3>BASIC</h3>
+
+<p>Basic Computer Course</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- About -->
+
+<section class="about">
+
+<h2>ABOUT US</h2>
+
+<p>
+
+We provide high quality computer education with experienced teachers,
+modern computer lab and Government recognized certificates.
+
+</p>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<p>
+
+© 2025 My Computer Education Center | All Rights Reserved
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

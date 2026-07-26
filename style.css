@@ -84,3 +84,53 @@ background:#d60000;
 .admin:hover{
 background:#990000;
 }
+/* আগের CSS */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+}
+
+/* Header CSS */
+
+/* Hero Section CSS */
+
+/* তারপর নিচে এই কোডটি পেস্ট করো */
+
+.form-box{
+width:400px;
+margin:80px auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,.2);
+}
+
+.form-box h2{
+text-align:center;
+margin-bottom:20px;
+}
+
+.form-box input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.form-box button{
+width:100%;
+padding:12px;
+background:#0b5d2a;
+color:white;
+border:none;
+border-radius:5px;
+font-size:18px;
+cursor:pointer;
+}
+
+.form-box button:hover{
+background:#08441f;
+}

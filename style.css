@@ -134,3 +134,39 @@ cursor:pointer;
 .form-box button:hover{
 background:#08441f;
 }
+/* Header */
+
+header{
+    width:100%;
+    background:#cc6657;
+    padding:10px 20px;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    background:white;
+}
+
+.title{
+    margin-left:20px;
+}
+
+.title h1{
+    color:#00d5ff;
+    font-size:48px;
+    font-family:cursive;
+    margin:0;
+}
+
+.title p{
+    color:white;
+    font-size:18px;
+    margin-top:5px;
+}
